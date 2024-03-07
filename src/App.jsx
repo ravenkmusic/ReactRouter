@@ -2,17 +2,14 @@ import { Routes, Route, Link } from "react-router-dom";
 import Blue from "./components/Blue";
 import Red from "./components/Red";
 import Home from "./components/Home";
+import Navbar from "./components/navbar";
 import './App.css'
 
 function App() {
 
   return (
     <div id="container">
-      <div id="navbar">
-        <Link to="/blue">Blue</Link>
-        <Link to="/red">Red</Link>
-        <Link to="/">Home</Link>
-        </div>
+      <Navbar />
       <div id="main-section">
         <Routes>
           <Route path="/blue" element ={<Blue />} />

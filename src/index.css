@@ -34,6 +34,8 @@ body > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: rgb(167, 167, 167) solid 2px;
+  border-radius: 3px;
 }
 
 .red {
@@ -48,5 +50,5 @@ body > div {
 
 .home{
   background-color: aquamarine;
-  color: white;
+  color: black;
 }

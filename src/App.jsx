@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import './App.css'
 
 function App() {
@@ -7,6 +7,8 @@ function App() {
   return (
     <div id="container">
       <div id="navbar">
+        <Link to="/blue">Blue</Link>
+        <Link to="/red">Red</Link>
         </div>
       <div id="main-section">
         <Routes>

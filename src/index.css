@@ -50,6 +50,6 @@ body > div {
 }
 
 .home{
-  background-color: aquamarine;
+  background-image: linear-gradient(aquamarine, azure);
   color: black;
 }

@@ -8,6 +8,7 @@ body,
 body > div {
   height: 100vh;
   width: 100vw;
+  background-image: linear-gradient(azure, purple);
 }
 
 #container {

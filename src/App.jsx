@@ -7,11 +7,13 @@ function App() {
   return (
     <div id="container">
       <div id="navbar">
+        </div>
+      <div id="main-section">
         <Routes>
-          
+          <Route path="/blue" element ={<h1>Blue</h1>} />
+          <Route path="/red" element={<h1>Red</h1>} />          
         </Routes>
         </div>
-      <div id="main-section">{/* routes here */}</div>
     </div>
   )
 }

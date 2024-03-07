@@ -5,10 +5,12 @@ import Home from "./components/Home";
 
 export default function MainSection(){
     return (
-    <Routes>
+    <div id="main-section">
+        <Routes>
         <Route path="/blue" element ={<Blue />} />
         <Route path="/red" element={<Red />} />
         <Route path="/" element={<Home />} />          
     </Routes>
+    </div>
     )
 }

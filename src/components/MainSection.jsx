@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Red from "./components/Red";
-import Home from "./components/Home";
-import Blue from "./components/Blue";
+import Red from "./Red";
+import Home from "./Home";
+import Blue from "./Blue";
 
 export default function MainSection(){
     return (

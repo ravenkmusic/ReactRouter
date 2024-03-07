@@ -4,9 +4,11 @@ import Red from "./components/Red";
 import Home from "./components/Home";
 
 export default function MainSection(){
+    return (
     <Routes>
         <Route path="/blue" element ={<Blue />} />
         <Route path="/red" element={<Red />} />
         <Route path="/" element={<Home />} />          
     </Routes>
+    )
 }
